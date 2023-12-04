@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+footer{
+    color: blue;
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    width: 100px;
+}
+table{
+    width: 100%;
+}
+th,td{
+    border: 1px solid black;
+}
+.artikel1{
+    background-image: url("Assets/schoravélogo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+}
+.artikel2{
+    background-image: url("Assets/essers.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+}
+.artikel3{
+
+}
