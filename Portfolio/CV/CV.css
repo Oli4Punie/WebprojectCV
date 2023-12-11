@@ -11,9 +11,11 @@ footer{
     color: blue;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 img{
-    width: 100px;
+    width: 200px;
+
 }
 table{
     width: 100%;
@@ -22,17 +24,23 @@ th,td{
     border: 1px solid black;
 }
 .artikel1{
-    background-image: url("Assets/schoravélogo.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
 }
 .artikel2{
-    background-image: url("Assets/essers.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
 }
 .artikel3{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.artikel3 > img{
+    width: 400px;
 }
