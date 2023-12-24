@@ -7,11 +7,23 @@ nav{
     justify-content: space-evenly;
     padding: 20px;
 }
+body{
+
+}
+header{
+    background-color: black;
+    color: white;
+}
 footer{
-    color: blue;
+    color: white;
+    background-color: black;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.boven:visited{
+    text-decoration: none;
+    color: white;
 }
 table{
     width: 100%;
@@ -21,7 +33,7 @@ th,td{
 }
 .link-header{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .Info{
     display: flex;
@@ -58,7 +70,7 @@ th,td{
 .artikel1{
     display: flex;
     flex-direction: column;
-        align-items:center;
+    align-items:center;
 }
 .artikel2{
     display: flex;
@@ -89,4 +101,46 @@ th,td{
 .div-midden{
     display: flex;
     width: 100%;
+}
+@media only screen and (max-width: 480px){
+    .table{
+        display: none;
+    }
+    th,td{
+        border: none;
+    }
+    .div-ervaringen{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .Info{
+        display: flex;
+        flex-direction: column;
+    }
+    .Info-links{
+        width: 100%;
+    }
+    .Info-midden{
+        width: 100%;
+    }
+    .Info-rechts{
+        display: flex;
+        width: 100%;
+    }
+    .div-links{
+        width: 100%;
+    }
+    .div-midden{
+        width: 100%;
+    }
+    .div-rechts{
+        width: 100%;
+    }
+    .artikel1{
+        width: 100%;
+    }
+    nav{
+        gap: 15px;
+    }
 }
